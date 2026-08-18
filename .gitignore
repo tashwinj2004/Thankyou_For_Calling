@@ -1,0 +1,33 @@
+# Environment & secrets
+.env
+*.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Uploads (runtime data)
+backend/uploads/
+
+# Documentation not for public repo
+PROJECT_EXPLAINED.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+export const ENDPOINTS = {
+  LOGIN: '/auth/login',
+  ME: '/auth/me',
+  USERS: '/users',
+  ADVISORS: '/users/advisors',
+  TEAM_LEADERS: '/users/team-leaders',
+  MY_ADVISORS: '/teams/my-advisors',
+  CALLS: '/calls',
+  UPLOAD_CALLS: '/calls/upload',
+  INSIGHTS: (callId) => `/calls/${callId}/insights`,
+  TRANSCRIPT: (callId) => `/calls/${callId}/transcript`,
+  EVALUATE: (callId) => `/calls/${callId}/evaluate`,
+  DISPUTE: (callId) => `/calls/${callId}/dispute`,
+  RESOLVE_DISPUTE: (callId) => `/calls/${callId}/resolve-dispute`,
+  DIRECTOR_ANALYTICS: '/analytics/director',
+};
